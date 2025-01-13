@@ -14315,6 +14315,7 @@ GameObject:
   - component: {fileID: 8604693750619759251}
   - component: {fileID: 6960716672357679431}
   - component: {fileID: 5134064584558690188}
+  - component: {fileID: 4985427771452593535}
   m_Layer: 6
   m_Name: Jeep
   m_TagString: Player
@@ -14721,6 +14722,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.7651774, y: 1.4652088, z: 3.7280169}
   m_Center: {x: -0.0013110042, y: 0.16232622, z: 0.05971837}
+--- !u!114 &4985427771452593535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8604693750619759250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c04b3a29e63c346baa26757be67f63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modelName: Jeep
+  price: 2500
+  topSpeed: 200
+  condition: 100
 --- !u!1 &8604693750650246589
 GameObject:
   m_ObjectHideFlags: 0

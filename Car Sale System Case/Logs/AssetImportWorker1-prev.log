@@ -15,7 +15,7 @@ C:/Users/celil/OneDrive/Belgeler/GitHub/Car-sale-system-case/Car Sale System Cas
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-62009
+62377
 Successfully changed project path to: C:/Users/celil/OneDrive/Belgeler/GitHub/Car-sale-system-case/Car Sale System Case
 C:/Users/celil/OneDrive/Belgeler/GitHub/Car-sale-system-case/Car Sale System Case
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,16 +49,16 @@ C:/Users/celil/OneDrive/Belgeler/GitHub/Car-sale-system-case/Car Sale System Cas
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17440]  Target information:
+Player connection [10444]  Target information:
 
-Player connection [17440]  * "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 3529065799 [EditorId] 3529065799 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT1N6QB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [10444]  * "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 1622778454 [EditorId] 1622778454 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT1N6QB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [17440]  * "[IP] 192.168.1.167 [Port] 0 [Flags] 2 [Guid] 3529065799 [EditorId] 3529065799 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT1N6QB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [10444]  * "[IP] 192.168.1.167 [Port] 0 [Flags] 2 [Guid] 1622778454 [EditorId] 1622778454 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT1N6QB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [17440] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [17440] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10444] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10444] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 16.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 18.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.42f1 (2dcb6a0abc42)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.42f1-x86_64/Editor/Data/Resources/UnitySubsystems
@@ -75,51 +75,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1-x86_64/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.42f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.42f1-x86_64/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.42f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017366 seconds.
-- Loaded All Assemblies, in  0.414 seconds
+Registered in 0.014630 seconds.
+- Loaded All Assemblies, in  0.448 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1242 ms
+Android Extension - Scanning For ADB Devices 242 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.563 seconds
-Domain Reload Profiling: 1974ms
-	BeginReloadAssembly (107ms)
+- Finished resetting the current domain, in  0.605 seconds
+Domain Reload Profiling: 1051ms
+	BeginReloadAssembly (113ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (79ms)
-	LoadAllAssembliesAndSetupDomain (171ms)
-		LoadAssemblies (105ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (220ms)
+		LoadAssemblies (111ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (168ms)
-			TypeCache.Refresh (166ms)
-				TypeCache.ScanAssembly (153ms)
+		AnalyzeDomain (217ms)
+			TypeCache.Refresh (215ms)
+				TypeCache.ScanAssembly (198ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1564ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (605ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1519ms)
+		SetupLoadedEditorAssemblies (562ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1371ms)
+			InitializePlatformSupportModulesInManaged (400ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (101ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -128,54 +128,122 @@ Domain Reload Profiling: 1974ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.881 seconds
+- Loaded All Assemblies, in  1.084 seconds
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.770 seconds
-Domain Reload Profiling: 1645ms
-	BeginReloadAssembly (149ms)
+- Finished resetting the current domain, in  1.134 seconds
+Domain Reload Profiling: 2212ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (770ms)
+		LoadAssemblies (541ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (345ms)
+			TypeCache.Refresh (296ms)
+				TypeCache.ScanAssembly (273ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1135ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (944ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (643ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 8.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5870 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (0.8 MB). Loaded Objects now: 6375.
+Memory consumption went from 224.2 MB to 223.5 MB.
+Total: 3.868300 ms (FindLiveObjects: 0.476400 ms CreateObjectMapping: 0.160200 ms MarkObjects: 2.847700 ms  DeleteObjects: 0.383100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 628e46b4c3b9cb448b4d5a742f6f41b0 -> d9b5b4461d8615cbdf8fc8a1ee4f9597
+  custom:scripting/monoscript/fileName/PlayerInteraction.cs:  -> 9a4c446a8ff47cb9e05e946b721d1f28
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.625 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.359 seconds
+Domain Reload Profiling: 1978ms
+	BeginReloadAssembly (175ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (630ms)
-		LoadAssemblies (431ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (362ms)
+		LoadAssemblies (427ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (288ms)
-			TypeCache.Refresh (249ms)
-				TypeCache.ScanAssembly (230ms)
-			ScanForSourceGeneratedMonoScriptInfo (25ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (771ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1359ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (619ms)
+		SetupLoadedEditorAssemblies (578ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
+			InitializePlatformSupportModulesInManaged (40ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (410ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (373ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
 			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 7.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5869 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (0.8 MB). Loaded Objects now: 6374.
-Memory consumption went from 224.3 MB to 223.5 MB.
-Total: 4.149200 ms (FindLiveObjects: 0.481200 ms CreateObjectMapping: 0.438900 ms MarkObjects: 2.873000 ms  DeleteObjects: 0.355000 ms)
+Unloading 5783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.8 MB). Loaded Objects now: 6390.
+Memory consumption went from 204.0 MB to 203.3 MB.
+Total: 4.724700 ms (FindLiveObjects: 0.668800 ms CreateObjectMapping: 0.462600 ms MarkObjects: 3.210100 ms  DeleteObjects: 0.381700 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
@@ -192,229 +260,1473 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 649305.549081 seconds.
-  path: Assets/RealisticCarControllerV3/Prefabs/Small Trailer.prefab
-  artifactKey: Guid(6200562e04e79c147a4a5139c2c6cc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RealisticCarControllerV3/Prefabs/Small Trailer.prefab using Guid(6200562e04e79c147a4a5139c2c6cc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '78568d821065144a5c215f6354999be7') in 0.079808 seconds
+  Time since last request: 649584.253433 seconds.
+  path: Assets/Scripts/PlayerInteraction.cs
+  artifactKey: Guid(48b0fbacf7a4747489b1ca3bf5fdab63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerInteraction.cs using Guid(48b0fbacf7a4747489b1ca3bf5fdab63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0af559e98a250e1888f559ee4e5f1c90') in 0.008883 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 77
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.632 seconds
+- Loaded All Assemblies, in  0.618 seconds
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.656 seconds
-Domain Reload Profiling: 2281ms
-	BeginReloadAssembly (161ms)
+- Finished resetting the current domain, in  1.412 seconds
+Domain Reload Profiling: 2023ms
+	BeginReloadAssembly (150ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (37ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (380ms)
-		LoadAssemblies (413ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (382ms)
+		LoadAssemblies (416ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (49ms)
+		AnalyzeDomain (48ms)
 			TypeCache.Refresh (11ms)
 				TypeCache.ScanAssembly (2ms)
 			ScanForSourceGeneratedMonoScriptInfo (22ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1656ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1413ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (644ms)
+		SetupLoadedEditorAssemblies (545ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
+			InitializePlatformSupportModulesInManaged (36ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (109ms)
-			ProcessInitializeOnLoadAttributes (412ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (345ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 6.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5782 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.8 MB). Loaded Objects now: 6405.
+Memory consumption went from 203.8 MB to 203.0 MB.
+Total: 3.643600 ms (FindLiveObjects: 0.457200 ms CreateObjectMapping: 0.156000 ms MarkObjects: 2.563000 ms  DeleteObjects: 0.466500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DOTweenModuleUtils.cs: 15d48e09d39dac1c10cb90ce412479e2 -> 38034ef06fb9b5354f8031bb85ea45ff
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DOTweenPreviewManager.cs: 1f9ce376c2c8495fb72902afee550122 -> 6704a79409e29b4269b1101c34c01cae
+  custom:scripting/monoscript/fileName/DOTweenAnimation.cs: 90b45a4272fbde2a29c3ff3569966d7a -> 4a5a560491b0dd6a8d490a6dbba57b66
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:scripting/monoscript/fileName/DOTweenAnimationInspector.cs: 5e65346a488769de5beba36b681f2618 -> e27a09f17535690c994d7a0dd75cccb7
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleUnityVersion.cs: e97169575460a7f2fc37c29fb9fd6cd8 -> 9ffd9acf63f9ee240a8629c063d5ab55
+  custom:scripting/monoscript/fileName/DOTweenModuleUI.cs: f3e579cd0427a2bcd02c4d01a7f51c0c -> 654d9cd56dfcd95536bd076e934e53a9
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleAudio.cs: 3a1650e4f25acb6584c9510b5731ad7a -> f44ff7195fa3a78ebfe99f449d7e78e1
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics2D.cs: 93666b7e0342e2a0b1e34423f396c80e -> 173b1ffc50b5696b426bbe7350c14fc4
+  custom:scripting/monoscript/fileName/DOTweenProShortcuts.cs: a0b0a87a6193e0706b5ad52d2144510e -> 90c7810f0d7504d6faad12dc67a3f8a8
+  custom:scripting/monoscript/fileName/DOTweenModuleSprite.cs: 4597ff41968f9021edf014b8883e0dc2 -> 4b5018ebeb8cf37efb36ac1d94ed5a4d
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics.cs: 09f5e4e694df330fd06c28d7c75e118d -> aff02123f5421112b27a1e25686d3abc
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 0b2489d4c72c66c483fd231a05ed7488 -> 7d5ffc5f4dd6bf54e85c3172501e2702
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 6b60726c6ca63060a819b153e28c00a8 -> d9b5b4461d8615cbdf8fc8a1ee4f9597
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.615 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.258 seconds
+Domain Reload Profiling: 1867ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (385ms)
+		LoadAssemblies (415ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (48ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1258ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (558ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (351ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 7.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5781 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (0.8 MB). Loaded Objects now: 6396.
-Memory consumption went from 204.0 MB to 203.3 MB.
-Total: 4.028000 ms (FindLiveObjects: 0.540000 ms CreateObjectMapping: 0.203100 ms MarkObjects: 2.944200 ms  DeleteObjects: 0.339800 ms)
+Unloading 5783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.8 MB). Loaded Objects now: 6420.
+Memory consumption went from 204.1 MB to 203.3 MB.
+Total: 3.452900 ms (FindLiveObjects: 0.467400 ms CreateObjectMapping: 0.163800 ms MarkObjects: 2.495200 ms  DeleteObjects: 0.325800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/RCC_GroundMaterialsEditor.cs: ab13eb2e2275b92d08866f7ef5ed8f2d -> 13528eba363f0587ae90c507093e93fd
-  custom:scripting/monoscript/fileName/RCC_SetScriptingSymbol.cs: db3013138681980cf4043cd488e89f2f -> ab741740482dea5c1960117894828dce
-  custom:scripting/monoscript/fileName/RCC_CustomizationApplier.cs: be199167859ed6e69e74afff1a7d5bf4 -> b0976c088371a5de8bdc3030e2b26009
-  custom:scripting/monoscript/fileName/RCC_SpeedLimiter.cs: 9646a639d0b4282f5cdf4c223f8c19a2 -> a863e3e0df931e70dc43d9509e3f7f7c
-  custom:scripting/monoscript/fileName/RCC.cs: 8bcbeb006babfc477505ac1b7b789180 -> c378fa8a041fe669fd8ced3b694c8bc0
-  custom:scripting/monoscript/fileName/UIVirtualTouchZone.cs: 7dc6ac3020fe6a04ec9b50f67c74e843 -> 2cf58d9131af5a78d9083ae59546d69c
-  custom:scripting/monoscript/fileName/RCC_CameraCarSelection.cs: f6b56a7583b67f18375c813ecdabde85 -> bf7317de19e7397dd73810c9d6b78fdd
-  custom:scripting/monoscript/fileName/RCC_VehicleUpgrade_Paint.cs: 043993d6e209d61e602dd2ba08b76975 -> 51391f01531bff9a6b15d6af4b819d77
   custom:scripting/monoscript/fileName/DOTweenModuleUtils.cs: 15d48e09d39dac1c10cb90ce412479e2 -> 38034ef06fb9b5354f8031bb85ea45ff
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/RCC_AIBrakeZone.cs: fa14f6cf8dd6ed3d39e916078c6b70ef -> 76c90f1b5416f239cbbf5e157827b053
-  custom:scripting/monoscript/fileName/RCC_UI_Canvas_Modification.cs: d4462531eb0c2d1b3760d92e1e22e739 -> d5ebe978c3d1c8989f9b900c42654abc
   custom:scripting/monoscript/fileName/DOTweenPreviewManager.cs: 1f9ce376c2c8495fb72902afee550122 -> 6704a79409e29b4269b1101c34c01cae
-  custom:scripting/monoscript/fileName/RCC_CrashShredder.cs: 6ffc1d6e3ad128176dc5c4cf62615b31 -> ec54bac1714b1284df1ce00d4ec39059
-  custom:scripting/monoscript/fileName/RCC_UIDashboardDisplay.cs: b24109168b81bb80cb9d7e89d29fa871 -> 27ac91c0f226d97c348cfb9de77fa626
-  custom:scripting/monoscript/fileName/RCC_InitLoad.cs: ec14dcfca7fffe2070d5a5529179f18b -> 61dfffaf4d903eab2b1d3623cdc0790f
-  custom:scripting/monoscript/fileName/RCC_LOD.cs: c96d1e5f7de6ce02315db5f60655812d -> 5e9b1965a53de803ea871d75a182c97c
   custom:scripting/monoscript/fileName/DOTweenAnimation.cs: 90b45a4272fbde2a29c3ff3569966d7a -> 4a5a560491b0dd6a8d490a6dbba57b66
   custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:scripting/monoscript/fileName/RCC_Version.cs: 6428be08fe6fc81b2894a5843370a083 -> 2c2817351a4da9a8f6d2c4f8b8910994
-  custom:scripting/monoscript/fileName/RCC_InfoLabel.cs: bf0ab4fe4d709a729ac45711d684db5e -> cd632253e8e98b8cc69ca90aa314dfff
-  custom:scripting/monoscript/fileName/RCC_VehicleUpgrade_UpgradeManager.cs: 3907dedd51818041fa4f4a85b88db84c -> e143b07008869422f50d4cc35cdc18d4
   custom:scripting/monoscript/fileName/DOTweenAnimationInspector.cs: 5e65346a488769de5beba36b681f2618 -> e27a09f17535690c994d7a0dd75cccb7
-  custom:scripting/monoscript/fileName/UIVirtualJoystick.cs: d91cd492c08816cfcd7c002f705e2a97 -> 940ec13d5cec07955291b086529e4dd6
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/RCC_UI_Color.cs: 649e2db39a00426d7c9315b59f7a4dea -> ed947c6c5263de158e380a7a25eef665
-  custom:scripting/monoscript/fileName/RCC_WelcomeWindow.cs: 01173a76c380923c22a42b068fd6177a -> 1aabd90bc8eb4132254a9170001d7d62
   custom:scripting/monoscript/fileName/DOTweenModuleUnityVersion.cs: e97169575460a7f2fc37c29fb9fd6cd8 -> 9ffd9acf63f9ee240a8629c063d5ab55
-  custom:scripting/monoscript/fileName/RCC_RepairStation.cs: b01f1830918363ec027a0f64013c0ef7 -> fba36c4510505ecd2ecc08dc6040ba65
-  custom:scripting/monoscript/fileName/RCC_AICarController.cs: a56f1f0eb34cb2074cbf03a921cc09c1 -> 9de86755127d0b30b413d6b020fe5f50
-  custom:scripting/monoscript/fileName/RCC_ColorPickerBySliders.cs: 467987f4b9e503dd010d06fd65d4e58f -> 2d7a8be4e26028d9f7b3c6b3ab411af2
-  custom:scripting/monoscript/fileName/RCC_SetLayer.cs: 09c8ef6f5a65c38fdd0af3009b240f80 -> 568ac226e32452310b757f2cedb244a7
-  custom:scripting/monoscript/fileName/RCC_Useless.cs: afb854b8adf1d40dc6c9fa819cea4f58 -> 36002f59d0d0bdb28ee19a9dfbc5b24e
-  custom:scripting/monoscript/fileName/RCC_SceneManager.cs: 592dd70a9de39579e04142126ef05ddb -> de3319e88760748905b22ff06617e8af
   custom:scripting/monoscript/fileName/DOTweenModuleUI.cs: f3e579cd0427a2bcd02c4d01a7f51c0c -> 654d9cd56dfcd95536bd076e934e53a9
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/RCC_FuelStation.cs: 26fb50f5b2e7ea48ec06f393a179cf20 -> 26cd296a80a1668722c6b59a6d84c616
-  custom:scripting/monoscript/fileName/RCC_UI_MobileDrag.cs: 06b0bde3aadde58aeb4b09bbaebdd41c -> 599321885e951a72f984a3d0bedac7a8
-  custom:scripting/monoscript/fileName/RCC_InputManager.cs: 8ebd7966a4532e23b1a82bb0af1dc9ba -> 220657931180d2850e54eb0e7e889718
-  custom:scripting/monoscript/fileName/RCC_Damage.cs: e3ecf9aac5f25018fff649cee77a9dc5 -> f226a3c8d13b04131dad03ea05c70544
-  custom:scripting/monoscript/fileName/RCC_Customization.cs: 7a1f66e6c40ca52f8a40433abb7735cd -> 6546f7a55c538193789ec809d8a86e2b
-  custom:scripting/monoscript/fileName/RCC_Skidmarks.cs: c292dd1f7e4263480ea7531450e7231f -> 2204e281251f38f88e8dc28cc6d2b4ea
-  custom:scripting/monoscript/fileName/RCC_FixedCamera.cs: f80bf25813acdcc976199e6e682c1f44 -> d93379504b25631cad3079c448ad20c6
-  custom:scripting/monoscript/fileName/RCC_AIWaypointsContainer.cs: 6b0224d75a15406048e13408c1b6949e -> 89c8218ca9afe8284029762bcff6bada
-  custom:scripting/monoscript/fileName/RCC_UISteeringWheelController.cs: f9e7704c919b9b8e9cb339a03f0bc05b -> bbdfe04cda70f4e4ba3675ccec1ea011
-  custom:scripting/monoscript/fileName/RCC_Settings.cs: 6eda2747248eae9e28d130cd7042cad5 -> f090cdcdd60d47c4112621c53eea9409
-  custom:scripting/monoscript/fileName/RCC_Installation.cs: 4898a6afba88201efbc67a2bea8bf6ab -> 73a17d6ed0e750ee989725f550c590ca
-  custom:scripting/monoscript/fileName/RCC_Exhaust.cs: ed209565cb59ebc22488e7a800178a87 -> d4653a26c343a22f5c4353cfb3235659
-  custom:scripting/monoscript/fileName/RCC_VehicleUpgrade_WheelManager.cs: b372f6c1ae79cdd496048df69b22c2f5 -> 468d6a1f982c1c72472b44ad3ba1e6a1
-  custom:scripting/monoscript/fileName/RCC_InputActions.cs: 2e5e5459641519eadbdf712cac88be0e -> bd9b03fedf47069fb35d83319d7bb848
-  custom:scripting/monoscript/fileName/RCC_CustomizationTrigger.cs: 779db18b471aa86ee50f30468e831b31 -> 0b210eadc575eef5e2ff83a98b69ca50
-  custom:scripting/monoscript/fileName/RCC_CrashHammer.cs: 9e0cd332d01ad95fe816bb7e18eb5208 -> 26a37b07a9e48b1938fb4ee52d23d680
-  custom:scripting/monoscript/fileName/RCC_Core.cs: 832bea50d2e722c608093eda390f1a1b -> d8193dcd9ffd96ac2adede46cf62df10
+  custom:scripting/monoscript/fileName/PlayerInteraction.cs: 1ab1308607cbd99e869800d93561bee4 -> 9a4c446a8ff47cb9e05e946b721d1f28
   custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:scripting/monoscript/fileName/RCC_VehicleUpgrade_Brake.cs: ea2ae432c8aa337bb91fcf8c402911b2 -> 7164af44365e82ddbafbe028b7bd35b1
-  custom:scripting/monoscript/fileName/RCC_VehicleUpgrade_SpoilerEditor.cs: ed45bc497ace76ce245c108c856ff00e -> 14ed62115cd96d224266fc0e65a62213
-  custom:scripting/monoscript/fileName/RCC_Camera.cs: a2d5ff86e4e12ae446406351d5bf4486 -> 10a3cc6cd41ad5abd040eca7cfdc69e3
-  custom:scripting/monoscript/fileName/RCC_Editor.cs: 8c604c8d3cedda0176b46dbe65781727 -> 368e59f11c7ae0ecf3ee75d8ed1cccee
-  custom:scripting/monoscript/fileName/RCC_VehicleUpgrade_WheelEditor.cs: e3b4bd4ef45a4c33dfcb34334e5011a0 -> c577fedf93f1527ad7933eb0c01cbd67
-  custom:scripting/monoscript/fileName/RCC_FixAxisWindow.cs: 24342cdbb329203e09b7bcd51e6930e8 -> 1c7e23a423c62daa11924f5ea428d431
-  custom:scripting/monoscript/fileName/RCC_SceneGUI.cs: 2d88deae17d828cd0f2656c76834288a -> d0bbdb03db4e094760714a569d87e1d5
-  custom:scripting/monoscript/fileName/RCC_LevelLoader.cs: aa72468031239489cc391395b83149dd -> 42cb2a72b1c2c9a916e636aff7f7dc0e
-  custom:scripting/monoscript/fileName/RCC_LightEditor.cs: 4483a7d2cc9003fc2334803fb370c9c4 -> 4f83a06db3021c175df5f59ad8a00c7b
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/UIVirtualButton.cs: 52482648e6f5e190b30c7811823ff594 -> 4484a5293e7a4abb96c3b06b8d8dca11
-  custom:scripting/monoscript/fileName/RCC_DemoMaterialsEditor.cs: f08126863fd680e7241e0e2e21f2f393 -> 83251ff4fde3029143a17175540720f6
-  custom:scripting/monoscript/fileName/RCC_SuspensionArm.cs: 84e7638ccc04c942941d56877dd37bae -> 1283de88ed4bfe1adb7e7d8ee01f93a6
-  custom:scripting/monoscript/fileName/RCC_Spawner.cs: c9308588a6487900dbf55304d19c67a1 -> 7f004efce21683436b381fceaa6658b2
-  custom:scripting/monoscript/fileName/RCC_ShowroomCamera.cs: 93a92e690ddfb70fe0b1bf5e5ffa99c5 -> d233ce1d628d17d14392f2800e552f7d
-  custom:scripting/monoscript/fileName/RCC_DetachablePart.cs: 31ad865fd74d43750bc38ca6dd5104fc -> b0b1448e451e3f0f67b633931e1c6383
-  custom:scripting/monoscript/fileName/RCC_VehicleUpgrade_Siren.cs: bf616d511388ea61a07b55dac2e601da -> 8e96012e6d09add1d1b4379a7c56a833
-  custom:scripting/monoscript/fileName/RCC_VehicleUpgrade_PaintManager.cs: 4381201ff29f551aeab047fbae8705d1 -> bee8a9ca2548a748ccec3c483d98885f
-  custom:scripting/monoscript/fileName/RCC_EditorWindows.cs: 03213627c5ee66b36d6de6c5ad2b7092 -> 86786871f71cf54f5ebeddd8e60e4aba
-  custom:scripting/monoscript/fileName/RCC_VehicleUpgrade_SpoilerManager.cs: bbad78182834b758045967cca31c4506 -> 8c02856bd2fb807d77f67ab0b72cf19c
-  custom:scripting/monoscript/fileName/RCC_WheelCamera.cs: ee329994cdac238e65abffeed5b66b7c -> 4ade4ca5a364ef8e8c958eef34889c8d
-  custom:scripting/monoscript/fileName/RCC_Waypoint.cs: e48c607b46ac7ddba60f005d84098a27 -> 6d855c85e2ccd7002131662fb6eea2af
-  custom:scripting/monoscript/fileName/RCC_Caliper.cs: 4a7e08e41f0a0957489efc6435c7fa62 -> 258af9235aa6e9dd867a4d5dee50fa54
-  custom:scripting/monoscript/fileName/MobileDisableAutoSwitchControls.cs: d7ed10b4aca925877e80f08d0210b16a -> 6080624f52a6a8173325efe0ce361f18
-  custom:scripting/monoscript/fileName/RCC_MobileUIDrag.cs: 2f79549f4ea126ed435a7e078f037c36 -> 6a8c0d37a5fca569f216da7b871ba1dc
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/RCC_GroundMaterials.cs: a0ffbbb7c2125bf17836f24f0ac0c239 -> 8defccaf12d709f7cbc0fe1e92a5dc1b
-  custom:scripting/monoscript/fileName/RCC_CustomizationLoadout.cs: 1bbecb1bac448ef231aeb84d8c9be35d -> 5782b308a51829c234c883fe80754ea7
-  custom:scripting/monoscript/fileName/RCC_AssetPaths.cs: db0861ef2f7072a51f9e473fac563f4d -> f263019f4a0f098f1be1f12a37ea98e1
-  custom:scripting/monoscript/fileName/RCC_SetControllerAuto.cs: 2c04b869de894535b45182fd39c46bdb -> 22a84a1c8ed025d8c9252af8dc3b276d
-  custom:scripting/monoscript/fileName/RCC_DashboardObjects.cs: 5776995f3e58fce06952c7eab54e3577 -> d55e2d39c28da90caeba08a80ecff0b6
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/RCC_Recorder.cs: 8d1465c128fd5f4a140e5b05d642c7d5 -> a435117e7ea0215f60bddc6592c05c7e
-  custom:scripting/monoscript/fileName/RCC_VehicleUpgrade_Engine.cs: ab04af0dcc9f79a7a8a8821899942788 -> 010eb7ca8b61e005afe16656ab3612c6
-  custom:scripting/monoscript/fileName/RCC_AIWPEditor.cs: 7dcb3962cad5cad20d8f41f20518d628 -> d6562e7518cb1e3590e2a2c425b259fd
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/RCC_RecordsEditor.cs: d33f2978753421e5b5341734bf8f952f -> 974eda9cda8bb53fb13ef278d7dc599e
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/RCC_TrailerAttachPoint.cs: 1031eae984a5225fc24b9c0fcaa0a040 -> 2d03dd2d340a013c92ad6c5b1d6779d5
   custom:scripting/monoscript/fileName/DOTweenModuleAudio.cs: 3a1650e4f25acb6584c9510b5731ad7a -> f44ff7195fa3a78ebfe99f449d7e78e1
-  custom:scripting/monoscript/fileName/UICanvasControllerInput.cs: 2cdef807cafca6682627d2fff45745d7 -> efbd76725fe032d832a1837ce36804c3
   custom:scripting/monoscript/fileName/DOTweenModulePhysics2D.cs: 93666b7e0342e2a0b1e34423f396c80e -> 173b1ffc50b5696b426bbe7350c14fc4
-  custom:scripting/monoscript/fileName/BasicRigidBodyPush.cs: 81692452d1a6b6b5ab4a950852e5937c -> 834b632457fae9d11b7ee6ae6006cbf8
-  custom:scripting/monoscript/fileName/RCC_CustomizationDemo.cs: 692340e0eecd3749ea34a9f3cde1dbe9 -> a1e0a7a0487ba0ae4065860aef3414a2
-  custom:scripting/monoscript/fileName/RCC_ChangableWheels.cs: 060543b35f95513859573cf681e76fb7 -> ab6ddf3fe5360fc3ac8b7e993c7d18cf
-  custom:scripting/monoscript/fileName/RCC_Emission.cs: 7f1fd127d12c8f4f84098c0ddf711898 -> 639622c5537f5fda7c5f4ff03f781f9f
-  custom:scripting/monoscript/fileName/RCC_UISliderTextReader.cs: e4822efce4b0f395c71fd0780f226b49 -> df980b34bab00c02ca1d1436bcd148e5
-  custom:scripting/monoscript/fileName/RCC_FOVForCinematicCamera.cs: 9daa28430a9e135b1ce5e7133ac3218d -> 9a5d9f3f5e9a32483b421b96e9ff1755
-  custom:scripting/monoscript/fileName/RCC_PoliceSiren.cs: 7f1e1644bd962b5a664684c1f6ac77e8 -> e6b2c1061f7e0ca91e6df891f91b021a
-  custom:scripting/monoscript/fileName/RCC_CharacterController.cs: 484fb485e6c345a9352be5aaeae62afa -> d9229e4ffde49252d2a8ea0a44d1f4fc
   custom:scripting/monoscript/fileName/DOTweenProShortcuts.cs: a0b0a87a6193e0706b5ad52d2144510e -> 90c7810f0d7504d6faad12dc67a3f8a8
-  custom:scripting/monoscript/fileName/RCC_DashboardInputs.cs: ff83f39083a363d4d93485f10ef01252 -> af6abf9d9cf58b32af3a81dd5a788da7
-  custom:scripting/monoscript/fileName/RCC_UI_Spoiler.cs: eb41b7f0c0c2b076f2e04c74a49e08e6 -> 6a2310a1099d2d2cc0b2e6cf2a31f422
-  custom:scripting/monoscript/fileName/RCC_HoodCamera.cs: fb9af7b0eb259be62340c81397952b9b -> 3db25c76b0759fcec7ec0460cf195950
-  custom:scripting/monoscript/fileName/RCC_PlayerPrefsX.cs: 6d7d90ea0e37c420f52d2077da69bf37 -> 34a2d10f8551cc85cc78c1d5def16a0c
-  custom:scripting/monoscript/fileName/RCC_CinematicCamera.cs: ae7bb7f19677dc660511e8dbf1c9b5c5 -> 87f35cdcca5e1fddc962efea61ef3a64
-  custom:scripting/monoscript/fileName/RCC_VehicleUpgrade_Spoiler.cs: f544186895f4e9bf9760adcb25a4f495 -> 441431932025a7d26d91e489bb58c3dd
-  custom:scripting/monoscript/fileName/RCC_DemoVehicles.cs: 58acf94f62d48623814350dc6b331956 -> 1e9a5e01c7f862f6f86774ad2f6931da
-  custom:scripting/monoscript/fileName/RCC_DashboardColors.cs: d01bb77b6d2d4c440e2fd4f27c4171aa -> a886501e6b80a11e663acb647a9696d4
-  custom:scripting/monoscript/fileName/RCC_AIBZEditor.cs: 276bf862c821bb00202ce49988a2c7d5 -> 2e39efef7fb3d07e71db80104209912a
-  custom:scripting/monoscript/fileName/RCC_SceneManagerEditor.cs: ede665de3b0409f3538100f55c0ebb54 -> aa8d9a26ed7a2f921927647d79582aba
-  custom:scripting/monoscript/fileName/RCC_MobileButtons.cs: 56335a676d404e4e31a335a201052223 -> 81274219d196f25c459c1393d4fb7a93
-  custom:scripting/monoscript/fileName/RCC_VehicleUpgrade_Handling.cs: cd6cfdaf467b0e1b67a5a0eb9c099a91 -> 88aa35b2fcf9c5238e611e6a0d5abf7b
-  custom:scripting/monoscript/fileName/RCC_CarSelectionExample.cs: 5d69b942c12b473390ebc5a4f31d45af -> 5636529051dab67bd3d117558dd91d0b
-  custom:scripting/monoscript/fileName/RCC_Mirror.cs: ffce0a184056eba9bde6e1de410e94c8 -> 34436aeeabf453905f4156fd21bb223e
-  custom:scripting/monoscript/fileName/RCC_Teleporter.cs: fdaa3eed6ee615f122b90fb7f45291e2 -> c4c94960579946ee9e204f4a24bfbbc8
   custom:scripting/monoscript/fileName/DOTweenModuleSprite.cs: 4597ff41968f9021edf014b8883e0dc2 -> 4b5018ebeb8cf37efb36ac1d94ed5a4d
-  custom:scripting/monoscript/fileName/RCC_UIJoystick.cs: e71f04c419cf2944886c59ec6054430b -> 7e619579bc2f344d79821d066f1a762a
-  custom:scripting/monoscript/fileName/RCC_DemoMaterials.cs: eae35ec396339bab4cc0c54811a70fda -> 49a8da59a8c896c6c3a9f8ab4b186e15
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/RCC_FeedVehicleExample.cs: ba7728860582b4ba997abbafffc687a1 -> 7da83a1f31be0d41a80838c0466bac2a
-  custom:scripting/monoscript/fileName/RCC_CustomizationApplierEditor.cs: 00bbb96b71479229b2cce7c51cb29296 -> 1f252aba33b96fa70d459355275d1b79
   custom:scripting/monoscript/fileName/DOTweenModulePhysics.cs: 09f5e4e694df330fd06c28d7c75e118d -> aff02123f5421112b27a1e25686d3abc
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/StarterAssetsInputs.cs: a7e8a1b91929a93d3b5a09196688da9f -> 109cc5d80cf92b9046134880b5edcf1b
-  custom:scripting/monoscript/fileName/RCC_CameraEditor.cs: 579ea709a2965cc3d3d1b3dd8cc54803 -> 64d6655748ee2ff53bf1dbc23fd50a57
-  custom:scripting/monoscript/fileName/RCC_Singleton.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/RCC_Records.cs: 1c712adc25cf845e8f5eb89499a02337 -> 074b38fc4ba1a813c25c063af961b0ba
-  custom:scripting/monoscript/fileName/RCC_UI_Siren.cs: 8498b626f1ba4f1ef846ea84f08da49e -> 0d25dc3e8979b168c44e4c3c86b0ac1d
-  custom:scripting/monoscript/fileName/RCC_UI_Wheel.cs: c6a5087d6ad09a4204be0fc2abe558a9 -> dea61665ac57563f3c59c541129801c1
-  custom:scripting/monoscript/fileName/RCC_AIBrakeZonesContainer.cs: 5350c0f076f9d14e6de92cfa6b3ccdf2 -> 9435a0144c5587b6cb5aadc517757666
-  custom:scripting/monoscript/fileName/RCC_Inputs.cs: f933869268c6f7729e6b173a721aac30 -> 2fb9a0e8c72bb8cdd0765b235ee2d884
-  custom:scripting/monoscript/fileName/RCC_Joint.cs: 106a6c0f23f7d677a3715e47fc2395e4 -> 6898902888c6d86dbd192a67c2f0a42c
-  custom:scripting/monoscript/fileName/RCC_VehicleUpgrade_SirenEditor.cs: 76c9f1bda6e0a2439c6f0463b06904ff -> 4d897e9edf1c735713070ab3a6a243a3
-  custom:scripting/monoscript/fileName/RCC_APIExample.cs: ed278aa89b2a36171148e25e707a8b76 -> d51d4d194f711da26a2283a72a5110ec
-  custom:scripting/monoscript/fileName/RCC_VehicleUpgrade_SirenManager.cs: ace800ebd0175efe8b06717bdac56b6e -> 8a45611f575f778c89816ff229b94d77
-  custom:scripting/monoscript/fileName/FirstPersonController.cs: 8b12a276978159c5862f93090c29bfa5 -> a84db48f9c6674dd2c91a1d423e221b3
-  custom:scripting/monoscript/fileName/RCC_SettingsEditor.cs: 3b77e366f860b4cf031c6ea22199f6c9 -> c1da0ac635ecb696c472f088e9155d9d
-  custom:scripting/monoscript/fileName/RCC_UIDashboardButton.cs: 6a34001edc60d2e0e66a16abaa3abdaf -> 7c81a89eeeadcf17f36271f4c00a0a24
-  custom:scripting/monoscript/fileName/RCC_AIO.cs: 3c9369e3ba11b9d5ef29021a4197c4bc -> 7462022e6ac5f1ebe42276103986fc84
-  custom:scripting/monoscript/fileName/RCC_VehicleUpgrade_PaintEditor.cs: 3cdea3ebddb5a9b852dc8650c39626c2 -> 837f8864444a6eefb6b134a5d687f647
-  custom:scripting/monoscript/fileName/RCC_ShadowRotConst.cs: 645336ebfcbebd152cb9b96007d820ba -> 5e53b36a18d33ae4fc679517d90d2f95
-  custom:scripting/monoscript/fileName/RCC_CrashPress.cs: 57231231939dac62b98166b4f6d960e4 -> 3699d2dbed0031a2160c1225c920cc54
-  custom:scripting/monoscript/fileName/RCC_CarControllerV3.cs: 20b2b5bfc0da365755a286ba05a34d6e -> 805738232a2767f6c99f3a90b0d82a62
-  custom:scripting/monoscript/fileName/RCC_CheckUp.cs: 07de5e06c60e24f72e3a893fc08dd366 -> 3049b85e7efa34234a57c8a85f17ad28
-  custom:scripting/monoscript/fileName/RCC_UI_Upgrade.cs: 419f71449a35c85f14f196b230c8415b -> 0e4564a3a45dfb37858142d260dcfc4d
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 7d5ffc5f4dd6bf54e85c3172501e2702 -> 943cf87f93d0db8bc60d9d58b8316d69
-  custom:scripting/monoscript/fileName/RCC_CustomizationManager.cs: f875124798b38b5a193edf59878dcf94 -> 2daedc919d3df43d7772df49642e50a1
-  custom:scripting/monoscript/fileName/RCC_GetBounds.cs: d8374630eb2529b39f448f488ecd5c32 -> 7bc3b2527e1f6172f73d51997424a0a2
-  custom:scripting/monoscript/fileName/RCC_Light.cs: c8b325f0ee58ab2169358150e12639e6 -> 975b1efc680cef4f311effbf0781d487
-  custom:scripting/monoscript/fileName/RCC_Telemetry.cs: 5af8277c5181ef23b566795c7d3a2726 -> 6d2e7528a8c0735c4b76b3c71c2089eb
-  custom:scripting/monoscript/fileName/RCC_CheckBeforePlay.cs: d66d8327ae9ab463af55b514aaf546fb -> c3e6f402e4565b992c69caf77c26e6c8
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 628e46b4c3b9cb448b4d5a742f6f41b0 -> 60b4fc60f6a8c243f34ba7ecae5634c9
-  custom:scripting/monoscript/fileName/RCC_CustomizerExample.cs: eee6ed266a0ecf66f479b6f1e330e451 -> 543f8a6ca388520121af36f3229d23fc
-  custom:scripting/monoscript/fileName/RCC_AIEditor.cs: 0cbecaae30f6b2ebf57c2060cc8b0f51 -> 879553abd9ec98a57dc889d0de6dc049
-  custom:scripting/monoscript/fileName/RCC_SkidmarksManager.cs: 3c486e225201cca494fa86cc84f3d43c -> 9cc100f5ede75e3a349a13484dc6834c
-  custom:scripting/monoscript/fileName/RCC_Demo.cs: dfcb780b6120d91c77aa0587b6388323 -> 2fd8329abd7e0d6aac18aed81d44788d
-  custom:scripting/monoscript/fileName/RCC_WheelCollider.cs: c0e10b3a201eb584222d740cc12e4c49 -> aa32d33546a82df483a82e034e1764bd
-  custom:scripting/monoscript/fileName/RCC_TruckTrailer.cs: 7e02f8572f5bdc0201a67f9b7193f235 -> fd296a788ceb311a86b29d09a859c627
-  custom:scripting/monoscript/fileName/RCC_UIController.cs: b299a98817e0b8c48b038513903f299c -> 7ce4293f28f164fbd9c55567e1a00281
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 0b2489d4c72c66c483fd231a05ed7488 -> 7d5ffc5f4dd6bf54e85c3172501e2702
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 9b5ef74ff181af41af8568da591e0c8f -> d9b5b4461d8615cbdf8fc8a1ee4f9597
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.616 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.246 seconds
+Domain Reload Profiling: 1857ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (382ms)
+		LoadAssemblies (414ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (50ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1247ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (545ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (346ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 6.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.8 MB). Loaded Objects now: 6435.
+Memory consumption went from 204.1 MB to 203.3 MB.
+Total: 3.476500 ms (FindLiveObjects: 0.446200 ms CreateObjectMapping: 0.155300 ms MarkObjects: 2.512100 ms  DeleteObjects: 0.361500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DOTweenModuleUtils.cs: 15d48e09d39dac1c10cb90ce412479e2 -> 38034ef06fb9b5354f8031bb85ea45ff
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DOTweenPreviewManager.cs: 1f9ce376c2c8495fb72902afee550122 -> 6704a79409e29b4269b1101c34c01cae
+  custom:scripting/monoscript/fileName/DOTweenAnimation.cs: 90b45a4272fbde2a29c3ff3569966d7a -> 4a5a560491b0dd6a8d490a6dbba57b66
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:scripting/monoscript/fileName/DOTweenAnimationInspector.cs: 5e65346a488769de5beba36b681f2618 -> e27a09f17535690c994d7a0dd75cccb7
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleUnityVersion.cs: e97169575460a7f2fc37c29fb9fd6cd8 -> 9ffd9acf63f9ee240a8629c063d5ab55
+  custom:scripting/monoscript/fileName/DOTweenModuleUI.cs: f3e579cd0427a2bcd02c4d01a7f51c0c -> 654d9cd56dfcd95536bd076e934e53a9
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PlayerInteraction.cs: 34f81aa31d33fc3a503572b0f073df79 -> 9a4c446a8ff47cb9e05e946b721d1f28
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleAudio.cs: 3a1650e4f25acb6584c9510b5731ad7a -> f44ff7195fa3a78ebfe99f449d7e78e1
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics2D.cs: 93666b7e0342e2a0b1e34423f396c80e -> 173b1ffc50b5696b426bbe7350c14fc4
+  custom:scripting/monoscript/fileName/DOTweenProShortcuts.cs: a0b0a87a6193e0706b5ad52d2144510e -> 90c7810f0d7504d6faad12dc67a3f8a8
+  custom:scripting/monoscript/fileName/DOTweenModuleSprite.cs: 4597ff41968f9021edf014b8883e0dc2 -> 4b5018ebeb8cf37efb36ac1d94ed5a4d
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics.cs: 09f5e4e694df330fd06c28d7c75e118d -> aff02123f5421112b27a1e25686d3abc
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 0b2489d4c72c66c483fd231a05ed7488 -> 7d5ffc5f4dd6bf54e85c3172501e2702
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d29065f2cc25e3b3001764075c295c22 -> d9b5b4461d8615cbdf8fc8a1ee4f9597
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.636 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.352 seconds
+Domain Reload Profiling: 1982ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (401ms)
+		LoadAssemblies (422ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (61ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1353ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (576ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (364ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 6.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5784 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.8 MB). Loaded Objects now: 6451.
+Memory consumption went from 204.0 MB to 203.3 MB.
+Total: 3.736000 ms (FindLiveObjects: 0.621400 ms CreateObjectMapping: 0.171600 ms MarkObjects: 2.600100 ms  DeleteObjects: 0.341600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DOTweenModuleUtils.cs: 15d48e09d39dac1c10cb90ce412479e2 -> 38034ef06fb9b5354f8031bb85ea45ff
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DOTweenPreviewManager.cs: 1f9ce376c2c8495fb72902afee550122 -> 6704a79409e29b4269b1101c34c01cae
+  custom:scripting/monoscript/fileName/DOTweenAnimation.cs: 90b45a4272fbde2a29c3ff3569966d7a -> 4a5a560491b0dd6a8d490a6dbba57b66
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:scripting/monoscript/fileName/DOTweenAnimationInspector.cs: 5e65346a488769de5beba36b681f2618 -> e27a09f17535690c994d7a0dd75cccb7
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleUnityVersion.cs: e97169575460a7f2fc37c29fb9fd6cd8 -> 9ffd9acf63f9ee240a8629c063d5ab55
+  custom:scripting/monoscript/fileName/CarDealer.cs: 12326736e2b4355146b3fdb82e668f6a -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleUI.cs: f3e579cd0427a2bcd02c4d01a7f51c0c -> 654d9cd56dfcd95536bd076e934e53a9
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PlayerInteraction.cs: 34f81aa31d33fc3a503572b0f073df79 -> 9a4c446a8ff47cb9e05e946b721d1f28
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleAudio.cs: 3a1650e4f25acb6584c9510b5731ad7a -> f44ff7195fa3a78ebfe99f449d7e78e1
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics2D.cs: 93666b7e0342e2a0b1e34423f396c80e -> 173b1ffc50b5696b426bbe7350c14fc4
+  custom:scripting/monoscript/fileName/DOTweenProShortcuts.cs: a0b0a87a6193e0706b5ad52d2144510e -> 90c7810f0d7504d6faad12dc67a3f8a8
+  custom:scripting/monoscript/fileName/DOTweenModuleSprite.cs: 4597ff41968f9021edf014b8883e0dc2 -> 4b5018ebeb8cf37efb36ac1d94ed5a4d
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics.cs: 09f5e4e694df330fd06c28d7c75e118d -> aff02123f5421112b27a1e25686d3abc
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 0b2489d4c72c66c483fd231a05ed7488 -> 7d5ffc5f4dd6bf54e85c3172501e2702
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 138d52067abbe562b1dcdb1c26c35fa7 -> d9b5b4461d8615cbdf8fc8a1ee4f9597
+========================================================================
+Received Import Request.
+  Time since last request: 231.409176 seconds.
+  path: Assets/Scripts/NPC/CarDealer.cs
+  artifactKey: Guid(ca9898cb6d4f625478b91eac83286598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NPC/CarDealer.cs using Guid(ca9898cb6d4f625478b91eac83286598) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '229851de7c254e9ee0e4881a99f76dae') in 0.001617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.630 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.256 seconds
+Domain Reload Profiling: 1880ms
+	BeginReloadAssembly (155ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (390ms)
+		LoadAssemblies (425ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (48ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1256ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (551ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (347ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 6.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.8 MB). Loaded Objects now: 6466.
+Memory consumption went from 203.9 MB to 203.1 MB.
+Total: 3.633200 ms (FindLiveObjects: 0.457100 ms CreateObjectMapping: 0.154200 ms MarkObjects: 2.589000 ms  DeleteObjects: 0.431900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DOTweenModuleUtils.cs: 15d48e09d39dac1c10cb90ce412479e2 -> 38034ef06fb9b5354f8031bb85ea45ff
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DOTweenPreviewManager.cs: 1f9ce376c2c8495fb72902afee550122 -> 6704a79409e29b4269b1101c34c01cae
+  custom:scripting/monoscript/fileName/DOTweenAnimation.cs: 90b45a4272fbde2a29c3ff3569966d7a -> 4a5a560491b0dd6a8d490a6dbba57b66
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:scripting/monoscript/fileName/DOTweenAnimationInspector.cs: 5e65346a488769de5beba36b681f2618 -> e27a09f17535690c994d7a0dd75cccb7
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleUnityVersion.cs: e97169575460a7f2fc37c29fb9fd6cd8 -> 9ffd9acf63f9ee240a8629c063d5ab55
+  custom:scripting/monoscript/fileName/CarDealer.cs: 12326736e2b4355146b3fdb82e668f6a -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleUI.cs: f3e579cd0427a2bcd02c4d01a7f51c0c -> 654d9cd56dfcd95536bd076e934e53a9
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PlayerInteraction.cs: 34f81aa31d33fc3a503572b0f073df79 -> 9a4c446a8ff47cb9e05e946b721d1f28
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleAudio.cs: 3a1650e4f25acb6584c9510b5731ad7a -> f44ff7195fa3a78ebfe99f449d7e78e1
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics2D.cs: 93666b7e0342e2a0b1e34423f396c80e -> 173b1ffc50b5696b426bbe7350c14fc4
+  custom:scripting/monoscript/fileName/DOTweenProShortcuts.cs: a0b0a87a6193e0706b5ad52d2144510e -> 90c7810f0d7504d6faad12dc67a3f8a8
+  custom:scripting/monoscript/fileName/DOTweenModuleSprite.cs: 4597ff41968f9021edf014b8883e0dc2 -> 4b5018ebeb8cf37efb36ac1d94ed5a4d
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics.cs: 09f5e4e694df330fd06c28d7c75e118d -> aff02123f5421112b27a1e25686d3abc
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 0b2489d4c72c66c483fd231a05ed7488 -> 7d5ffc5f4dd6bf54e85c3172501e2702
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 138d52067abbe562b1dcdb1c26c35fa7 -> d9b5b4461d8615cbdf8fc8a1ee4f9597
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.621 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.431 seconds
+Domain Reload Profiling: 2047ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (391ms)
+		LoadAssemblies (416ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (52ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1431ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (646ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (417ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 6.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5785 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.8 MB). Loaded Objects now: 6482.
+Memory consumption went from 204.2 MB to 203.4 MB.
+Total: 3.572800 ms (FindLiveObjects: 0.460100 ms CreateObjectMapping: 0.162100 ms MarkObjects: 2.615200 ms  DeleteObjects: 0.334600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DOTweenModuleUtils.cs: 15d48e09d39dac1c10cb90ce412479e2 -> 38034ef06fb9b5354f8031bb85ea45ff
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DOTweenPreviewManager.cs: 1f9ce376c2c8495fb72902afee550122 -> 6704a79409e29b4269b1101c34c01cae
+  custom:scripting/monoscript/fileName/DOTweenAnimation.cs: 90b45a4272fbde2a29c3ff3569966d7a -> 4a5a560491b0dd6a8d490a6dbba57b66
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:scripting/monoscript/fileName/DOTweenAnimationInspector.cs: 5e65346a488769de5beba36b681f2618 -> e27a09f17535690c994d7a0dd75cccb7
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleUnityVersion.cs: e97169575460a7f2fc37c29fb9fd6cd8 -> 9ffd9acf63f9ee240a8629c063d5ab55
+  custom:scripting/monoscript/fileName/CarDealer.cs: 12326736e2b4355146b3fdb82e668f6a -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleUI.cs: f3e579cd0427a2bcd02c4d01a7f51c0c -> 654d9cd56dfcd95536bd076e934e53a9
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PlayerInteraction.cs: 34f81aa31d33fc3a503572b0f073df79 -> 9a4c446a8ff47cb9e05e946b721d1f28
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/Car.cs: b68156a1d38ceec4c6ac0961b605d6f3 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleAudio.cs: 3a1650e4f25acb6584c9510b5731ad7a -> f44ff7195fa3a78ebfe99f449d7e78e1
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics2D.cs: 93666b7e0342e2a0b1e34423f396c80e -> 173b1ffc50b5696b426bbe7350c14fc4
+  custom:scripting/monoscript/fileName/DOTweenProShortcuts.cs: a0b0a87a6193e0706b5ad52d2144510e -> 90c7810f0d7504d6faad12dc67a3f8a8
+  custom:scripting/monoscript/fileName/DOTweenModuleSprite.cs: 4597ff41968f9021edf014b8883e0dc2 -> 4b5018ebeb8cf37efb36ac1d94ed5a4d
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics.cs: 09f5e4e694df330fd06c28d7c75e118d -> aff02123f5421112b27a1e25686d3abc
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 0b2489d4c72c66c483fd231a05ed7488 -> 7d5ffc5f4dd6bf54e85c3172501e2702
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 18bd7c28c639cc6ec1aa8774f192738a -> d9b5b4461d8615cbdf8fc8a1ee4f9597
+========================================================================
+Received Import Request.
+  Time since last request: 184.980990 seconds.
+  path: Assets/Scripts/Car/Car.cs
+  artifactKey: Guid(14b9ea5efc8774648bce1b8afd435bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car/Car.cs using Guid(14b9ea5efc8774648bce1b8afd435bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1ece1128d962ff435311784761667ed7') in 0.001752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.671 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.347 seconds
+Domain Reload Profiling: 2012ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (421ms)
+		LoadAssemblies (454ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (59ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1348ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (592ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (382ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Script is not up to date after domain reload: guid(14b9ea5efc8774648bce1b8afd435bdb) path("Assets/Scripts/Car/Car.cs") state(2)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 10.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.8 MB). Loaded Objects now: 6496.
+Memory consumption went from 203.9 MB to 203.1 MB.
+Total: 4.857300 ms (FindLiveObjects: 0.712300 ms CreateObjectMapping: 0.169200 ms MarkObjects: 3.513000 ms  DeleteObjects: 0.461600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DOTweenModuleUtils.cs: 15d48e09d39dac1c10cb90ce412479e2 -> 38034ef06fb9b5354f8031bb85ea45ff
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DOTweenPreviewManager.cs: 1f9ce376c2c8495fb72902afee550122 -> 6704a79409e29b4269b1101c34c01cae
+  custom:scripting/monoscript/fileName/DOTweenAnimation.cs: 90b45a4272fbde2a29c3ff3569966d7a -> 4a5a560491b0dd6a8d490a6dbba57b66
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:scripting/monoscript/fileName/DOTweenAnimationInspector.cs: 5e65346a488769de5beba36b681f2618 -> e27a09f17535690c994d7a0dd75cccb7
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleUnityVersion.cs: e97169575460a7f2fc37c29fb9fd6cd8 -> 9ffd9acf63f9ee240a8629c063d5ab55
+  custom:scripting/monoscript/fileName/CarDealer.cs: 12326736e2b4355146b3fdb82e668f6a -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleUI.cs: f3e579cd0427a2bcd02c4d01a7f51c0c -> 654d9cd56dfcd95536bd076e934e53a9
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PlayerInteraction.cs: 34f81aa31d33fc3a503572b0f073df79 -> 9a4c446a8ff47cb9e05e946b721d1f28
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/Car.cs: b68156a1d38ceec4c6ac0961b605d6f3 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleAudio.cs: 3a1650e4f25acb6584c9510b5731ad7a -> f44ff7195fa3a78ebfe99f449d7e78e1
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics2D.cs: 93666b7e0342e2a0b1e34423f396c80e -> 173b1ffc50b5696b426bbe7350c14fc4
+  custom:scripting/monoscript/fileName/DOTweenProShortcuts.cs: a0b0a87a6193e0706b5ad52d2144510e -> 90c7810f0d7504d6faad12dc67a3f8a8
+  custom:scripting/monoscript/fileName/DOTweenModuleSprite.cs: 4597ff41968f9021edf014b8883e0dc2 -> 4b5018ebeb8cf37efb36ac1d94ed5a4d
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics.cs: 09f5e4e694df330fd06c28d7c75e118d -> aff02123f5421112b27a1e25686d3abc
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 0b2489d4c72c66c483fd231a05ed7488 -> 7d5ffc5f4dd6bf54e85c3172501e2702
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 18bd7c28c639cc6ec1aa8774f192738a -> d9b5b4461d8615cbdf8fc8a1ee4f9597
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.635 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.353 seconds
+Domain Reload Profiling: 1983ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (394ms)
+		LoadAssemblies (426ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (51ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1353ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (619ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (387ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 5.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5785 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.8 MB). Loaded Objects now: 6512.
+Memory consumption went from 204.2 MB to 203.4 MB.
+Total: 3.620000 ms (FindLiveObjects: 0.478500 ms CreateObjectMapping: 0.158000 ms MarkObjects: 2.620900 ms  DeleteObjects: 0.361700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DOTweenModuleUtils.cs: 15d48e09d39dac1c10cb90ce412479e2 -> 38034ef06fb9b5354f8031bb85ea45ff
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DOTweenPreviewManager.cs: 1f9ce376c2c8495fb72902afee550122 -> 6704a79409e29b4269b1101c34c01cae
+  custom:scripting/monoscript/fileName/DOTweenAnimation.cs: 90b45a4272fbde2a29c3ff3569966d7a -> 4a5a560491b0dd6a8d490a6dbba57b66
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:scripting/monoscript/fileName/DOTweenAnimationInspector.cs: 5e65346a488769de5beba36b681f2618 -> e27a09f17535690c994d7a0dd75cccb7
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleUnityVersion.cs: e97169575460a7f2fc37c29fb9fd6cd8 -> 9ffd9acf63f9ee240a8629c063d5ab55
+  custom:scripting/monoscript/fileName/CarDealer.cs: 12326736e2b4355146b3fdb82e668f6a -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleUI.cs: f3e579cd0427a2bcd02c4d01a7f51c0c -> 654d9cd56dfcd95536bd076e934e53a9
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PlayerInteraction.cs: 34f81aa31d33fc3a503572b0f073df79 -> 9a4c446a8ff47cb9e05e946b721d1f28
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/Car.cs: b68156a1d38ceec4c6ac0961b605d6f3 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleAudio.cs: 3a1650e4f25acb6584c9510b5731ad7a -> f44ff7195fa3a78ebfe99f449d7e78e1
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics2D.cs: 93666b7e0342e2a0b1e34423f396c80e -> 173b1ffc50b5696b426bbe7350c14fc4
+  custom:scripting/monoscript/fileName/DOTweenProShortcuts.cs: a0b0a87a6193e0706b5ad52d2144510e -> 90c7810f0d7504d6faad12dc67a3f8a8
+  custom:scripting/monoscript/fileName/DOTweenModuleSprite.cs: 4597ff41968f9021edf014b8883e0dc2 -> 4b5018ebeb8cf37efb36ac1d94ed5a4d
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics.cs: 09f5e4e694df330fd06c28d7c75e118d -> aff02123f5421112b27a1e25686d3abc
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 0b2489d4c72c66c483fd231a05ed7488 -> 7d5ffc5f4dd6bf54e85c3172501e2702
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 18bd7c28c639cc6ec1aa8774f192738a -> d9b5b4461d8615cbdf8fc8a1ee4f9597
+========================================================================
+Received Import Request.
+  Time since last request: 43.464138 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Models/Model_Skyline by BUMSTRUM.fbx
+  artifactKey: Guid(55ad9e52dcdf4e14ab18b5144308bfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Models/Model_Skyline by BUMSTRUM.fbx using Guid(55ad9e52dcdf4e14ab18b5144308bfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fe8b89bc01d228654187ec1f4ec6c15c') in 0.153435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Models/Road.FBX
+  artifactKey: Guid(8afe7dd398d71f14b80cf97af9b95213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Models/Road.FBX using Guid(8afe7dd398d71f14b80cf97af9b95213) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8bd0d8d27dd126a8d303198fb50262a3') in 0.061376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Models/Road.prefab
+  artifactKey: Guid(602d6f5b689177f428a7e147bcf8d9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Models/Road.prefab using Guid(602d6f5b689177f428a7e147bcf8d9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e6541af86c70e1354d8a1729a4052f15') in 0.007327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 13.281048 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/CTR.prefab
+  artifactKey: Guid(6e4f5358be5ec5142b505cdeab793b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/CTR.prefab using Guid(6e4f5358be5ec5142b505cdeab793b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b0fc2249497a77b9b47d713679b3389f') in 0.000742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Skyline.prefab
+  artifactKey: Guid(582ec036f71d2b84590c26a52a0a52b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Skyline.prefab using Guid(582ec036f71d2b84590c26a52a0a52b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e0d814688b4f0e6511acf635ec41eb70') in 0.000718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Sofie@Driving by BUMSTRUM.prefab
+  artifactKey: Guid(6fa73193fc7c3a040acf01c5757f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Sofie@Driving by BUMSTRUM.prefab using Guid(6fa73193fc7c3a040acf01c5757f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1d2c6cb66fbd8ae6d9f7080f10d66e84') in 0.000568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E36.prefab
+  artifactKey: Guid(0722a9e01046ddd4289c83d741ad6252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E36.prefab using Guid(0722a9e01046ddd4289c83d741ad6252) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '307cc86faa559fd4b0a6f132f8f4620f') in 0.000582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Skyline (AI Chaser).prefab
+  artifactKey: Guid(1b1e43849c5000340a4d53ea10ba1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Skyline (AI Chaser).prefab using Guid(1b1e43849c5000340a4d53ea10ba1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6b322e3105be0e9e7ddceb5a10f12613') in 0.000779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/F1.prefab
+  artifactKey: Guid(0b1c534c7466b8e4e918a77c360f45ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/F1.prefab using Guid(0b1c534c7466b8e4e918a77c360f45ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '30dfe8e0396dd953dc93175d4daab6d1') in 0.000640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 31.370249 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/CTR.prefab
+  artifactKey: Guid(6e4f5358be5ec5142b505cdeab793b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/CTR.prefab using Guid(6e4f5358be5ec5142b505cdeab793b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c4745f744e4c134dcf73a8b17a12ffeb') in 0.000513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E46_New.prefab
+  artifactKey: Guid(f5b24270dd3a52e4180206467601e919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E46_New.prefab using Guid(f5b24270dd3a52e4180206467601e919) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0f0f75fc50e35de3b6b820f88a965888') in 0.000428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Jeep.prefab
+  artifactKey: Guid(b6c8a12b979de084c9fcb410d00706b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Jeep.prefab using Guid(b6c8a12b979de084c9fcb410d00706b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd6efbfb53d10f4b6cab44593e24d98db') in 0.000571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E36.prefab
+  artifactKey: Guid(0722a9e01046ddd4289c83d741ad6252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E36.prefab using Guid(0722a9e01046ddd4289c83d741ad6252) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4aaefb35318b5f988410cc6e55dbe77d') in 0.000485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Skyline (AI Chaser).prefab
+  artifactKey: Guid(1b1e43849c5000340a4d53ea10ba1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Skyline (AI Chaser).prefab using Guid(1b1e43849c5000340a4d53ea10ba1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f04780db7ccec2ea926090aa5834e49c') in 0.000546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M5_E30.prefab
+  artifactKey: Guid(9a667d070a973084e998d8667e8d2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M5_E30.prefab using Guid(9a667d070a973084e998d8667e8d2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f479389cbfb70ff8d4ca54994874ada7') in 0.000532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.894783 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/CTR.prefab
+  artifactKey: Guid(6e4f5358be5ec5142b505cdeab793b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/CTR.prefab using Guid(6e4f5358be5ec5142b505cdeab793b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '742f24f0e386ac5369f8e2d61fa51df9') in 0.000504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Skyline.prefab
+  artifactKey: Guid(582ec036f71d2b84590c26a52a0a52b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Skyline.prefab using Guid(582ec036f71d2b84590c26a52a0a52b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8ea5cf712d50a080a594ca71926569d2') in 0.000587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Sofie@Driving by BUMSTRUM.prefab
+  artifactKey: Guid(6fa73193fc7c3a040acf01c5757f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Sofie@Driving by BUMSTRUM.prefab using Guid(6fa73193fc7c3a040acf01c5757f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '11395230ae0a0d7143c81f9cccc88db9') in 0.000412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E36.prefab
+  artifactKey: Guid(0722a9e01046ddd4289c83d741ad6252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E36.prefab using Guid(0722a9e01046ddd4289c83d741ad6252) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ae31cf530880263187bb47cec9c1a065') in 0.000554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Skyline (AI Chaser).prefab
+  artifactKey: Guid(1b1e43849c5000340a4d53ea10ba1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Skyline (AI Chaser).prefab using Guid(1b1e43849c5000340a4d53ea10ba1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc05af81dd22b8d3a5ba76a26f36bb8d') in 0.000603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M5_E30.prefab
+  artifactKey: Guid(9a667d070a973084e998d8667e8d2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M5_E30.prefab using Guid(9a667d070a973084e998d8667e8d2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '397f90d9387fee8ba8804320e30b9354') in 0.000570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 31.256034 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/CTR.prefab
+  artifactKey: Guid(6e4f5358be5ec5142b505cdeab793b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/CTR.prefab using Guid(6e4f5358be5ec5142b505cdeab793b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '742f24f0e386ac5369f8e2d61fa51df9') in 0.000704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Skyline.prefab
+  artifactKey: Guid(582ec036f71d2b84590c26a52a0a52b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Skyline.prefab using Guid(582ec036f71d2b84590c26a52a0a52b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8ea5cf712d50a080a594ca71926569d2') in 0.000456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Sofie@Driving by BUMSTRUM.prefab
+  artifactKey: Guid(6fa73193fc7c3a040acf01c5757f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Sofie@Driving by BUMSTRUM.prefab using Guid(6fa73193fc7c3a040acf01c5757f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '11395230ae0a0d7143c81f9cccc88db9') in 0.000380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E36.prefab
+  artifactKey: Guid(0722a9e01046ddd4289c83d741ad6252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E36.prefab using Guid(0722a9e01046ddd4289c83d741ad6252) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ae31cf530880263187bb47cec9c1a065') in 0.000477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Skyline (AI Chaser).prefab
+  artifactKey: Guid(1b1e43849c5000340a4d53ea10ba1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Skyline (AI Chaser).prefab using Guid(1b1e43849c5000340a4d53ea10ba1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc05af81dd22b8d3a5ba76a26f36bb8d') in 0.000539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M5_E30.prefab
+  artifactKey: Guid(9a667d070a973084e998d8667e8d2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M5_E30.prefab using Guid(9a667d070a973084e998d8667e8d2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '397f90d9387fee8ba8804320e30b9354') in 0.000536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.231255 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/F1.prefab
+  artifactKey: Guid(0b1c534c7466b8e4e918a77c360f45ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/F1.prefab using Guid(0b1c534c7466b8e4e918a77c360f45ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f7cb5696cdad5f359536de1daa0c179e') in 0.000453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E46_New.prefab
+  artifactKey: Guid(f5b24270dd3a52e4180206467601e919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E46_New.prefab using Guid(f5b24270dd3a52e4180206467601e919) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '237f56424021467797a8e74b6a4d4e2d') in 0.000440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Jeep.prefab
+  artifactKey: Guid(b6c8a12b979de084c9fcb410d00706b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Jeep.prefab using Guid(b6c8a12b979de084c9fcb410d00706b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c471bf79ba7ea7d9392c10a457a18215') in 0.000557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Pickup.prefab
+  artifactKey: Guid(a333afaa2016d504aa0831cf3544672c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Pickup.prefab using Guid(a333afaa2016d504aa0831cf3544672c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1bcd4d906cf54f485d833ff8ca17b47f') in 0.000563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Truck.prefab
+  artifactKey: Guid(850a87f0a0dbde941a5f90e91ca94920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Truck.prefab using Guid(850a87f0a0dbde941a5f90e91ca94920) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '519bba82009a5ec82954cc074aadfa9e') in 0.000476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.430098 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/F1.prefab
+  artifactKey: Guid(0b1c534c7466b8e4e918a77c360f45ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/F1.prefab using Guid(0b1c534c7466b8e4e918a77c360f45ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f7cb5696cdad5f359536de1daa0c179e') in 0.000472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E46_New.prefab
+  artifactKey: Guid(f5b24270dd3a52e4180206467601e919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E46_New.prefab using Guid(f5b24270dd3a52e4180206467601e919) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '237f56424021467797a8e74b6a4d4e2d') in 0.000495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Jeep.prefab
+  artifactKey: Guid(b6c8a12b979de084c9fcb410d00706b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Jeep.prefab using Guid(b6c8a12b979de084c9fcb410d00706b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c471bf79ba7ea7d9392c10a457a18215') in 0.000485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Pickup.prefab
+  artifactKey: Guid(a333afaa2016d504aa0831cf3544672c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Pickup.prefab using Guid(a333afaa2016d504aa0831cf3544672c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1bcd4d906cf54f485d833ff8ca17b47f') in 0.000409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Truck.prefab
+  artifactKey: Guid(850a87f0a0dbde941a5f90e91ca94920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Truck.prefab using Guid(850a87f0a0dbde941a5f90e91ca94920) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '519bba82009a5ec82954cc074aadfa9e') in 0.000571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M5_E30.prefab
+  artifactKey: Guid(9a667d070a973084e998d8667e8d2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M5_E30.prefab using Guid(9a667d070a973084e998d8667e8d2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '397f90d9387fee8ba8804320e30b9354') in 0.000514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.378060 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/F1.prefab
+  artifactKey: Guid(0b1c534c7466b8e4e918a77c360f45ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/F1.prefab using Guid(0b1c534c7466b8e4e918a77c360f45ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f7cb5696cdad5f359536de1daa0c179e') in 0.000456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E46_New.prefab
+  artifactKey: Guid(f5b24270dd3a52e4180206467601e919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E46_New.prefab using Guid(f5b24270dd3a52e4180206467601e919) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '237f56424021467797a8e74b6a4d4e2d') in 0.000505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Jeep.prefab
+  artifactKey: Guid(b6c8a12b979de084c9fcb410d00706b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Jeep.prefab using Guid(b6c8a12b979de084c9fcb410d00706b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c471bf79ba7ea7d9392c10a457a18215') in 0.000526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Pickup.prefab
+  artifactKey: Guid(a333afaa2016d504aa0831cf3544672c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Pickup.prefab using Guid(a333afaa2016d504aa0831cf3544672c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1bcd4d906cf54f485d833ff8ca17b47f') in 0.000571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Truck.prefab
+  artifactKey: Guid(850a87f0a0dbde941a5f90e91ca94920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Truck.prefab using Guid(850a87f0a0dbde941a5f90e91ca94920) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '519bba82009a5ec82954cc074aadfa9e') in 0.000560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M5_E30.prefab
+  artifactKey: Guid(9a667d070a973084e998d8667e8d2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M5_E30.prefab using Guid(9a667d070a973084e998d8667e8d2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '397f90d9387fee8ba8804320e30b9354') in 0.000494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.279467 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Jeep.prefab
+  artifactKey: Guid(b6c8a12b979de084c9fcb410d00706b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Jeep.prefab using Guid(b6c8a12b979de084c9fcb410d00706b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c471bf79ba7ea7d9392c10a457a18215') in 0.000477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E46_New.prefab
+  artifactKey: Guid(f5b24270dd3a52e4180206467601e919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E46_New.prefab using Guid(f5b24270dd3a52e4180206467601e919) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '237f56424021467797a8e74b6a4d4e2d') in 0.000552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Sofie@Driving by BUMSTRUM.prefab
+  artifactKey: Guid(6fa73193fc7c3a040acf01c5757f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Sofie@Driving by BUMSTRUM.prefab using Guid(6fa73193fc7c3a040acf01c5757f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '11395230ae0a0d7143c81f9cccc88db9') in 0.000478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Pickup.prefab
+  artifactKey: Guid(a333afaa2016d504aa0831cf3544672c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Pickup.prefab using Guid(a333afaa2016d504aa0831cf3544672c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1bcd4d906cf54f485d833ff8ca17b47f') in 0.000479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Truck.prefab
+  artifactKey: Guid(850a87f0a0dbde941a5f90e91ca94920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Truck.prefab using Guid(850a87f0a0dbde941a5f90e91ca94920) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '519bba82009a5ec82954cc074aadfa9e') in 0.000752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.554081 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Jeep.prefab
+  artifactKey: Guid(b6c8a12b979de084c9fcb410d00706b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Jeep.prefab using Guid(b6c8a12b979de084c9fcb410d00706b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c471bf79ba7ea7d9392c10a457a18215') in 0.000507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E46_New.prefab
+  artifactKey: Guid(f5b24270dd3a52e4180206467601e919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E46_New.prefab using Guid(f5b24270dd3a52e4180206467601e919) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '237f56424021467797a8e74b6a4d4e2d') in 0.000380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Sofie@Driving by BUMSTRUM.prefab
+  artifactKey: Guid(6fa73193fc7c3a040acf01c5757f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Sofie@Driving by BUMSTRUM.prefab using Guid(6fa73193fc7c3a040acf01c5757f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '11395230ae0a0d7143c81f9cccc88db9') in 0.000371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Pickup.prefab
+  artifactKey: Guid(a333afaa2016d504aa0831cf3544672c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Pickup.prefab using Guid(a333afaa2016d504aa0831cf3544672c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1bcd4d906cf54f485d833ff8ca17b47f') in 0.000586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Truck.prefab
+  artifactKey: Guid(850a87f0a0dbde941a5f90e91ca94920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Truck.prefab using Guid(850a87f0a0dbde941a5f90e91ca94920) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '519bba82009a5ec82954cc074aadfa9e') in 0.000469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.752043 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E36.prefab
+  artifactKey: Guid(0722a9e01046ddd4289c83d741ad6252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E36.prefab using Guid(0722a9e01046ddd4289c83d741ad6252) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ae31cf530880263187bb47cec9c1a065') in 0.000583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Skyline.prefab
+  artifactKey: Guid(582ec036f71d2b84590c26a52a0a52b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Skyline.prefab using Guid(582ec036f71d2b84590c26a52a0a52b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8ea5cf712d50a080a594ca71926569d2') in 0.000425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Sofie@Driving by BUMSTRUM.prefab
+  artifactKey: Guid(6fa73193fc7c3a040acf01c5757f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Sofie@Driving by BUMSTRUM.prefab using Guid(6fa73193fc7c3a040acf01c5757f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '11395230ae0a0d7143c81f9cccc88db9') in 0.000401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Skyline (AI Chaser).prefab
+  artifactKey: Guid(1b1e43849c5000340a4d53ea10ba1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Skyline (AI Chaser).prefab using Guid(1b1e43849c5000340a4d53ea10ba1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc05af81dd22b8d3a5ba76a26f36bb8d') in 0.000614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M5_E30.prefab
+  artifactKey: Guid(9a667d070a973084e998d8667e8d2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M5_E30.prefab using Guid(9a667d070a973084e998d8667e8d2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '397f90d9387fee8ba8804320e30b9354') in 0.000479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.569437 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E36.prefab
+  artifactKey: Guid(0722a9e01046ddd4289c83d741ad6252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E36.prefab using Guid(0722a9e01046ddd4289c83d741ad6252) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ae31cf530880263187bb47cec9c1a065') in 0.000657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Skyline.prefab
+  artifactKey: Guid(582ec036f71d2b84590c26a52a0a52b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Skyline.prefab using Guid(582ec036f71d2b84590c26a52a0a52b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8ea5cf712d50a080a594ca71926569d2') in 0.000427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Sofie@Driving by BUMSTRUM.prefab
+  artifactKey: Guid(6fa73193fc7c3a040acf01c5757f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Sofie@Driving by BUMSTRUM.prefab using Guid(6fa73193fc7c3a040acf01c5757f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '11395230ae0a0d7143c81f9cccc88db9') in 0.000453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Skyline (AI Chaser).prefab
+  artifactKey: Guid(1b1e43849c5000340a4d53ea10ba1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Skyline (AI Chaser).prefab using Guid(1b1e43849c5000340a4d53ea10ba1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc05af81dd22b8d3a5ba76a26f36bb8d') in 0.000399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M5_E30.prefab
+  artifactKey: Guid(9a667d070a973084e998d8667e8d2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M5_E30.prefab using Guid(9a667d070a973084e998d8667e8d2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '397f90d9387fee8ba8804320e30b9354') in 0.000597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.265281 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E46_New.prefab
+  artifactKey: Guid(f5b24270dd3a52e4180206467601e919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M3_E46_New.prefab using Guid(f5b24270dd3a52e4180206467601e919) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '237f56424021467797a8e74b6a4d4e2d') in 0.000455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Sofie@Driving by BUMSTRUM.prefab
+  artifactKey: Guid(6fa73193fc7c3a040acf01c5757f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Sofie@Driving by BUMSTRUM.prefab using Guid(6fa73193fc7c3a040acf01c5757f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '11395230ae0a0d7143c81f9cccc88db9') in 0.000503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Skyline (AI Chaser).prefab
+  artifactKey: Guid(1b1e43849c5000340a4d53ea10ba1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Skyline (AI Chaser).prefab using Guid(1b1e43849c5000340a4d53ea10ba1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc05af81dd22b8d3a5ba76a26f36bb8d') in 0.000531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M5_E30.prefab
+  artifactKey: Guid(9a667d070a973084e998d8667e8d2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M5_E30.prefab using Guid(9a667d070a973084e998d8667e8d2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '397f90d9387fee8ba8804320e30b9354') in 0.000430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.982776 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M5_E30.prefab
+  artifactKey: Guid(9a667d070a973084e998d8667e8d2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/M5_E30.prefab using Guid(9a667d070a973084e998d8667e8d2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '397f90d9387fee8ba8804320e30b9354') in 0.000438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Sofie@Driving by BUMSTRUM.prefab
+  artifactKey: Guid(6fa73193fc7c3a040acf01c5757f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Sofie@Driving by BUMSTRUM.prefab using Guid(6fa73193fc7c3a040acf01c5757f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '11395230ae0a0d7143c81f9cccc88db9') in 0.000408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Skyline (AI Chaser).prefab
+  artifactKey: Guid(1b1e43849c5000340a4d53ea10ba1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Skyline (AI Chaser).prefab using Guid(1b1e43849c5000340a4d53ea10ba1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc05af81dd22b8d3a5ba76a26f36bb8d') in 0.000596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.514217 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Skyline.prefab
+  artifactKey: Guid(582ec036f71d2b84590c26a52a0a52b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Skyline.prefab using Guid(582ec036f71d2b84590c26a52a0a52b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8ea5cf712d50a080a594ca71926569d2') in 0.000489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Sofie@Driving by BUMSTRUM.prefab
+  artifactKey: Guid(6fa73193fc7c3a040acf01c5757f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Sofie@Driving by BUMSTRUM.prefab using Guid(6fa73193fc7c3a040acf01c5757f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '11395230ae0a0d7143c81f9cccc88db9') in 0.000533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Skyline (AI Chaser).prefab
+  artifactKey: Guid(1b1e43849c5000340a4d53ea10ba1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Skyline (AI Chaser).prefab using Guid(1b1e43849c5000340a4d53ea10ba1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc05af81dd22b8d3a5ba76a26f36bb8d') in 0.000388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.922705 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Sofie@Driving by BUMSTRUM.prefab
+  artifactKey: Guid(6fa73193fc7c3a040acf01c5757f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Sofie@Driving by BUMSTRUM.prefab using Guid(6fa73193fc7c3a040acf01c5757f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '11395230ae0a0d7143c81f9cccc88db9') in 0.000538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Pickup.prefab
+  artifactKey: Guid(a333afaa2016d504aa0831cf3544672c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Pickup.prefab using Guid(a333afaa2016d504aa0831cf3544672c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1bcd4d906cf54f485d833ff8ca17b47f') in 0.000558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Truck.prefab
+  artifactKey: Guid(850a87f0a0dbde941a5f90e91ca94920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Truck.prefab using Guid(850a87f0a0dbde941a5f90e91ca94920) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '519bba82009a5ec82954cc074aadfa9e') in 0.000429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.575063 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Sofie@Driving by BUMSTRUM.prefab
+  artifactKey: Guid(6fa73193fc7c3a040acf01c5757f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Model_Sofie@Driving by BUMSTRUM.prefab using Guid(6fa73193fc7c3a040acf01c5757f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '11395230ae0a0d7143c81f9cccc88db9') in 0.000476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Skyline (AI Chaser).prefab
+  artifactKey: Guid(1b1e43849c5000340a4d53ea10ba1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Skyline (AI Chaser).prefab using Guid(1b1e43849c5000340a4d53ea10ba1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc05af81dd22b8d3a5ba76a26f36bb8d') in 0.000487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.133555 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Pickup.prefab
+  artifactKey: Guid(a333afaa2016d504aa0831cf3544672c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Pickup.prefab using Guid(a333afaa2016d504aa0831cf3544672c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1bcd4d906cf54f485d833ff8ca17b47f') in 0.000608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Truck.prefab
+  artifactKey: Guid(850a87f0a0dbde941a5f90e91ca94920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Truck.prefab using Guid(850a87f0a0dbde941a5f90e91ca94920) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '519bba82009a5ec82954cc074aadfa9e') in 0.000428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.827419 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Pickup.prefab
+  artifactKey: Guid(a333afaa2016d504aa0831cf3544672c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Pickup.prefab using Guid(a333afaa2016d504aa0831cf3544672c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1bcd4d906cf54f485d833ff8ca17b47f') in 0.000489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Truck.prefab
+  artifactKey: Guid(850a87f0a0dbde941a5f90e91ca94920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Truck.prefab using Guid(850a87f0a0dbde941a5f90e91ca94920) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '519bba82009a5ec82954cc074aadfa9e') in 0.000439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 22.664992 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Skyline (AI Chaser).prefab
+  artifactKey: Guid(1b1e43849c5000340a4d53ea10ba1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Skyline (AI Chaser).prefab using Guid(1b1e43849c5000340a4d53ea10ba1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc05af81dd22b8d3a5ba76a26f36bb8d') in 0.000443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.622211 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Skyline (AI Chaser).prefab
+  artifactKey: Guid(1b1e43849c5000340a4d53ea10ba1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Skyline (AI Chaser).prefab using Guid(1b1e43849c5000340a4d53ea10ba1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc05af81dd22b8d3a5ba76a26f36bb8d') in 0.000467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.588918 seconds.
+  path: Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Truck.prefab
+  artifactKey: Guid(850a87f0a0dbde941a5f90e91ca94920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/RealisticCarControllerV3/Prefabs/Demo Vehicles/Truck.prefab using Guid(850a87f0a0dbde941a5f90e91ca94920) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '519bba82009a5ec82954cc074aadfa9e') in 0.000560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Bir iþ parçacýðý çýkýþý veya bir uygulama isteði nedeniyle G/Ç iþlemi iptal edildi.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -11278,6 +11278,7 @@ GameObject:
   - component: {fileID: 3168191085159468768}
   - component: {fileID: 3354115180038256481}
   - component: {fileID: 2614193427183532931}
+  - component: {fileID: -1366012576000477152}
   m_Layer: 6
   m_Name: CTR
   m_TagString: Untagged
@@ -11699,6 +11700,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14b9ea5efc8774648bce1b8afd435bdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-1366012576000477152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3354115180038256482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c04b3a29e63c346baa26757be67f63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modelName: CTR
+  price: 2000
+  topSpeed: 280
+  condition: 100
 --- !u!1 &3354115180106329301
 GameObject:
   m_ObjectHideFlags: 0

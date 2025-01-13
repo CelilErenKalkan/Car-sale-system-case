@@ -1,7 +1,10 @@
+using System;
+using StarterAssets;
 using UnityEngine;
 
-public class PlayerInteraction : MonoBehaviour 
+public class PlayerInteraction : MonoBehaviour
 {
+    [SerializeField] private FirstPersonController controller;
     [SerializeField] private float interactionRange = 5f; // Etkileşim mesafesi
     [SerializeField] private LayerMask interactionLayers; // Etkileşim yapılabilir objelerin Layer'ı
     [SerializeField] private GameObject interactionUI; // "E'ye basın" UI'si
@@ -47,7 +50,26 @@ public class PlayerInteraction : MonoBehaviour
             {
                 Pool.Instance.DeactivateObject(transform.parent.gameObject, PoolItemType.Player);
             }
+            else if (currentInteractable is CarDealer)
+            {
+                Actions.MenuState?.Invoke(true);
+            }
         }
+    }
+
+    private void SetControllerState(bool state)
+    {
+        controller.enabled = !state;
+    }
+
+    private void OnEnable()
+    {
+        Actions.MenuState += SetControllerState;
+    }
+    
+    private void OnDisable()
+    {
+        Actions.MenuState -= SetControllerState;
     }
 }
 

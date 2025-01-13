@@ -11153,6 +11153,7 @@ GameObject:
   - component: {fileID: 6934875944136214827}
   - component: {fileID: 580181198717169275}
   - component: {fileID: 8310347512302685290}
+  - component: {fileID: 3020038633767983122}
   m_Layer: 6
   m_Name: Buggy
   m_TagString: Untagged
@@ -11543,6 +11544,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14b9ea5efc8774648bce1b8afd435bdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3020038633767983122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580181198717169272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c04b3a29e63c346baa26757be67f63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modelName: Buggy
+  price: 1200
+  topSpeed: 180
+  condition: 100
 --- !u!1 &816723741242340488
 GameObject:
   m_ObjectHideFlags: 0

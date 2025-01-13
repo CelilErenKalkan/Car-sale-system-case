@@ -16226,6 +16226,7 @@ GameObject:
   - component: {fileID: 2323855760968642337}
   - component: {fileID: 4493774594652649358}
   - component: {fileID: -1441274540615031279}
+  - component: {fileID: -6648761211559564168}
   m_Layer: 6
   m_Name: Coupe
   m_TagString: Player
@@ -16631,6 +16632,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14b9ea5efc8774648bce1b8afd435bdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-6648761211559564168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4493774594652649359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c04b3a29e63c346baa26757be67f63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modelName: Coupe
+  price: 1500
+  topSpeed: 220
+  condition: 100
 --- !u!1 &4493774594732186762
 GameObject:
   m_ObjectHideFlags: 0
