@@ -1,20 +1,24 @@
 using System;
+using System.Collections;
+using Data_Management;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
-
-    [SerializeField] private Transform defaultTransform;
+    private int counter;
+    [HideInInspector] public Transform player;
 
     private void Awake()
     {
         HandleSingletonInstance();
+        PlayerDataManager.LoadData();
     }
 
     private void Start()
     {
-        Pool.Instance.SpawnObject(defaultTransform.position, PoolItemType.Player, null);
+        StartCoroutine(AutoSave());
+        player = Pool.Instance.SpawnObject(PlayerDataManager.PlayerData.position, PoolItemType.Player, null).transform;
     }
 
     private void HandleSingletonInstance()
@@ -28,9 +32,33 @@ public class GameManager : MonoBehaviour
             Instance = this;
         }
     }
-
-    private void LoadGameData()
+    
+    private void OnEnable()
     {
-        // Load player data and map order
+        Actions.GameSaved += ResetCounter;
+    }
+    
+    private void OnDisable()
+    {
+        Actions.GameSaved -= ResetCounter;
+    }
+
+    private void ResetCounter()
+    {
+        counter = 60;
+    }
+
+    private IEnumerator AutoSave()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(1);
+            counter--;
+            if (counter <= 0)
+            {
+                PlayerDataManager.SaveData();
+                counter = 60;
+            }
+        }
     }
 }

@@ -1,21 +1,25 @@
 using System;
+using Data_Management;
 using TMPro;
 using UnityEngine;
-using Button = UnityEngine.UI.Button;
-using Image = UnityEngine.UI.Image;
-using Slider = UnityEngine.UI.Slider;
+using UnityEngine.UI;
 
 public class CarPanel : MonoBehaviour
 {
     [SerializeField] private TMP_Text modelName, price;
     [SerializeField] private Slider topSpeed, condition;
+    public Button buyButton;
+    private Car car;
 
-    public void SetValues(string newModelName, int newPrice, float newTopSpeed, int newCondition)
+    public void SetValues(Car carScript)
     {
-        modelName.text = newModelName;
-        price.text = newPrice + "$";
+        buyButton.onClick.AddListener(BuyCar);
+
+        car = carScript;
+        modelName.text = car.modelName;
+        price.text = car.price + "$";
         
-        topSpeed.value = newTopSpeed / 400;
+        topSpeed.value = car.topSpeed / 400;
         Debug.Log(topSpeed.value);
         if (topSpeed.transform.GetChild(1).GetChild(0).TryGetComponent(out Image topSpeedFill))
         {
@@ -27,7 +31,7 @@ public class CarPanel : MonoBehaviour
                 topSpeedFill.color = Color.green;
         }
 
-        condition.value = newCondition / 100;
+        condition.value = car.condition / 100;
         if (condition.transform.GetChild(1).GetChild(0).TryGetComponent(out Image conditionFill))
         {
             if (condition.value <= 0.25f)
@@ -43,6 +47,7 @@ public class CarPanel : MonoBehaviour
 
     private void BuyCar()
     {
-        
+        Debug.Log($"{car.modelName} satın alındı! Fiyat: {car.price}");
+        PlayerDataManager.GetCar(car);
     }
 }

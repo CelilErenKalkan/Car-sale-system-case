@@ -1,3 +1,4 @@
+using Data_Management;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -17,16 +18,10 @@ public class CarDealerUI : MonoBehaviour
         {
             Car carScript = car.GetComponent<Car>();
             GameObject newButton = Instantiate(carButtonPrefab, carListParent);
-            newButton.GetComponent<CarPanel>().SetValues(carScript.modelName, carScript.price, carScript.topSpeed, carScript.condition);
+            newButton.GetComponent<CarPanel>().SetValues(carScript);
         }
     }
 
-    private void BuyCar(Car car) 
-    {
-        Debug.Log($"{car.modelName} satın alındı! Fiyat: {car.price}");
-        // Satın alma işlemleri buraya eklenebilir.
-    }
-    
     public void OpenUI()
     {
         gameObject.SetActive(true);

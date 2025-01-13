@@ -926,6 +926,7 @@ MonoBehaviour:
   price: {fileID: 8932303230288339623}
   topSpeed: {fileID: 4818212985049832772}
   condition: {fileID: 7296161713559067066}
+  buyButton: {fileID: 3953278689275687566}
 --- !u!1 &4777497789761097109
 GameObject:
   m_ObjectHideFlags: 0
